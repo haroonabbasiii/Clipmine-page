@@ -80,3 +80,35 @@ font-size: large;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   }
+  .text
+  {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  .grid-container
+  {
+    display:grid;
+    grid-template-columns: auto auto auto;
+
+  }
+  .grid-items
+  {
+    align-self:center;
+  }
+  .gridpara
+  {
+    text-align: center;
+    padding-top: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .grid-para
+  {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .gridimg{
+    width:100%;
+  }

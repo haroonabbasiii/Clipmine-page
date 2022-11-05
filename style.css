@@ -92,7 +92,7 @@ font-size: large;
   {
     display:grid;
     grid-template-columns: auto auto auto;
-
+justify-content: space-evenly;
   }
   .grid-items
   {
@@ -166,3 +166,31 @@ font-size: large;
     padding-top: 20%;
     width:80%;
   }
+  .grid-container2
+  {
+    display:grid;
+    grid-template-columns: auto auto;
+
+  }
+  .grid-container3
+  {
+    display:grid;
+    grid-template-columns: auto auto;
+column-gap: 180px;
+  }
+  .sim31{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20%;
+    color: white;
+    text-align: center;
+    font-size:large ;
+    background-image: url("/clipmine page/clipmine page/collections/collection-startup_460x184.png");
+}      
+.sim32{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 17.5%;
+    color: white;
+    text-align: center;
+    font-size:large ;
+    background-image: url("/clipmine page/clipmine page/collections/collection-ml_461x184.png");
+}      

@@ -30,5 +30,53 @@ ul {
         
   }
   ul li a{
-    padding-inline: 5px;
+    padding-inline: 7px;
+  }
+  .background{
+    display: flexbox;
+    background-repeat: no-repeat;
+    min-height: 100sp;
+    min-width: 100sp;
+    background-size: 100% 100% ;
+    padding: 15%;
+background-image: url("/clipmine page/clipmine page/top-section_4360x1500.jpg");
+    
+  }
+  .paragraph1
+  {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size: large;
+font-size: xx-large;
+padding-left: 250px;
+padding-right: 250px;
+  }
+  .paragraph2
+  {
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+font-weight: 400;
+padding-left: 300px;
+padding-right: 300px;
+font-size: large;
+  }
+  .parabutton
+  {
+    background-color: rgb(0, 110, 255);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 5%;
+    margin: 0;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   }

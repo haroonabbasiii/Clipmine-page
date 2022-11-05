@@ -24,6 +24,11 @@ ul {
   }
   .topnav-right
   {
-    float: right;
+    position: absolute;
+        top: 0%;
+        right: 1%;
+        
   }
-  
+  ul li a{
+    padding-inline: 5px;
+  }
